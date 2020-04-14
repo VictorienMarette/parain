@@ -1,0 +1,21 @@
+CREATE TABLE partenaires(
+    p_id int(11) not null PRIMARY KEY AUTO_INCREMENT,
+    p_categories varchar(256) not null,
+    p_description varchar(1000) not null,
+    p_lien varchar(256) not null, 
+    g_indic int(1) not null
+);
+
+CREATE TABLE tags(
+    tag varchar(256) not null
+);
+
+CREATE TABLE gArgent(
+    g_id int(11) not null PRIMARY KEY AUTO_INCREMENT,
+    g_categories varchar(256) not null,
+    g_lien varchar(256) not null,
+    g_prix varchar(256) not null,
+    g_description varchar(1000) not null,
+    g_paypal varchar(256) not null,
+    g_indic int(1) not null
+);

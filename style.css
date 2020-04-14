@@ -1,0 +1,62 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+
+.container_subscribe{
+	background-color: grey;
+	width: 150px;
+	margin: 20px;
+}
+
+.container_img_partner{
+	background-color: yellow;
+	width: 150px;
+	height: 150px;
+	margin: 20px;
+}
+
+.img_subscribe{
+	width: 50px;
+	height: 50px;
+}
+
+.img_partner{
+	width: 150px;
+	height: 150px;
+}
+
+.container_img_partner_page{
+	background-color: yellow;
+	width: 250px;
+	height: 250px;
+	margin: 20px;
+}
+
+.img_partner_page{
+	width: 250px;
+	height: 250px;
+}
+
+
+
+.container_list_subscribe, .container_list_partner{
+	display: flex;
+}
+
+header{
+	background-color: red;
+}
+
+footer{
+	background-color: blue;
+}
+
+.img_subscribe_page{
+	width: 100px;
+	height: 100px;
+}
+
+.description_subscribe_page{
+	background-color: green;
+}
