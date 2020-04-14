@@ -10,4 +10,4 @@ if (isset($_POST['poug'])) {
 	}
 
 }
-header('Location: ../index.php');
+//header('Location: ../index.php');
