@@ -16,7 +16,7 @@ if ($resultChek == 1) {
 	$row = mysqli_fetch_assoc($result);
 	$tags = $row['tag'];
 }
-echo '<form class="form-recherche-2" method="POST" action="end/tag_c.php">
+echo '<form class="form-recherche-2" method="POST" action="endee/tag_c.php">
 	<input id="input-recherche" type="text" minlength="1" name="new_tags" value="'.$tags.'">
 	<button id="bouton-recherche" type="submit" name="submit">update</button>
 </form>';
@@ -26,7 +26,7 @@ echo '<form class="" method="GET" action="index.php">
 	<input id="input-recherche" type="text" minlength="1" name="recherche_p" placeholder="Recherche">
 	<button id="bouton-recherche" type="submit" name="submit">recherché</button>
 </form>';
-echo '<form class="" method="POST" action="end/nv.php">
+echo '<form class="" method="POST" action="endee/nv.php">
 	<input type="hidden" name="poug" value="p">
 	<button id="bouton-recherche" type="submit" name="submit">nouveau</button>
 </form>';
@@ -52,7 +52,7 @@ echo '<form class="" method="GET" action="index.php">
 	<input id="input-recherche" type="text" minlength="1" name="recherche_l" placeholder="Recherche">
 	<button id="bouton-recherche" type="submit" name="submit">recherché</button>
 </form>';
-echo '<form class="" method="POST" action="end/nv.php">
+echo '<form class="" method="POST" action="endee/nv.php">
 	<input type="hidden" name="poug" value="g">
 	<button id="bouton-recherche" type="submit" name="submit">nouveau</button>
 </form>';
