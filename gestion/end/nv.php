@@ -8,6 +8,9 @@ if (isset($_POST['poug'])) {
 		$sql = "INSERT INTO gArgent (g_lien, g_indic) VALUES ('nouveau', '1');";
 		$result = mysqli_query($conn, $sql);
 	}
+	echo $_POST['poug'];
 
+}else{
+	echo "caca";
 }
 //header('Location: ../index.php');
