@@ -14,9 +14,6 @@ if (isset($_POST['poug'])) {
 	if(!$result){
     	echo(mysqli_error($conn));
 	} 
-	echo $_POST['poug'];
 
-}else{
-	echo "caca";
 }
 //header('Location: ../index.php');
