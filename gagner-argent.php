@@ -2,7 +2,6 @@
 	include_once("includes/modules/header.php");
 ?>
 
-
 <div class="container_list_subscribe">
 	<?php  
 		include_once("includes/end/dph.php");
